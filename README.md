@@ -1,12 +1,9 @@
 
----
-
-```markdown
 # Brain Tumor Classification using VGG19 – Web Application
 
 ## 🧠 Project Overview
 
-This project is a deep learning-based web application designed to classify brain MRI images into four categories: **Glioma**, **Meningioma**, **Pituitary Tumor**, and **No Tumor**. The model is built using the **VGG19** Convolutional Neural Network architecture and is integrated into a user-friendly **Flask** web application. Users can upload MRI images and instantly receive a prediction, making this project an excellent blend of machine learning and web development aimed at assisting early brain tumor detection.
+This project is a deep learning-based web application designed to classify brain MRI images into four categories: **Glioma**, **Meningioma**, **Pituitary Tumor**, and **No Tumor**. The model is built using the **VGG19** Convolutional Neural Network architecture and is integrated into a user-friendly **Flask** web application. Users can upload MRI images and instantly receive a prediction, making this project an excellent blend of machine learning and web development aimed at assisting early brain tumor d...
 
 ---
 
@@ -24,8 +21,7 @@ This project is a deep learning-based web application designed to classify brain
 ## 📁 Project Structure
 
 ```
-
-brain\_tumor\_app\_updated/
+brain_tumor_app_updated/
 │
 ├── static/
 │   ├── css/style.css              # Stylesheet
@@ -37,18 +33,17 @@ brain\_tumor\_app\_updated/
 │   └── predict.html               # Upload & prediction interface
 │
 ├── model/
-│   └── multiclass\_vgg19\_model.h5 # Trained VGG19 model
+│   └── multiclass_vgg19_model.h5 # Trained VGG19 model
 │
 ├── tumordataset/                 # Dataset used for training/testing
 │
 ├── app.py                        # Flask app backend
 ├── predict.py                    # Preprocessing & prediction logic
-├── train\_model.py                # Model training script
-├── evaluate\_model.py             # Evaluation & confusion matrix
-├── confusion\_matrix.png          # Output confusion matrix
+├── train_model.py                # Model training script
+├── evaluate_model.py             # Evaluation & confusion matrix
+├── confusion_matrix.png          # Output confusion matrix
 └── requirements.txt              # Dependencies
-
-````
+```
 
 ---
 
@@ -69,22 +64,19 @@ brain\_tumor\_app\_updated/
    ```bash
    git clone https://github.com/yourusername/brain_tumor_classifier.git
    cd brain_tumor_classifier
-````
+   ```
 
 2. **Install dependencies**
-
    ```bash
    pip install -r requirements.txt
    ```
 
 3. **Run the app**
-
    ```bash
    python app.py
    ```
 
 4. **Open browser**
-
    ```
    Visit http://127.0.0.1:5000 in your browser
    ```
@@ -156,15 +148,6 @@ A confusion matrix was used to evaluate model performance. For example:
 
 ---
 
+## 📄 License
 
-
----
-
-
-
-```
-
----
-
-Let me know if you'd like this exported as a `README.md` file or converted into a PDF.
-```
+This project is intended for educational and academic use only.
